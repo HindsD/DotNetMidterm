@@ -1,0 +1,4 @@
+2021-10-15 15:37:50.3422|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 15:37:52.9689|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 15:37:58.7073|INFO|DotNetTicketSysTypes.Program|User choice: 
+2021-10-15 15:37:58.7092|INFO|DotNetTicketSysTypes.Program|Program ended

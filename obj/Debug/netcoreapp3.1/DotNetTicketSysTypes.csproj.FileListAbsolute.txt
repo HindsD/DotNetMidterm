@@ -1,0 +1,17 @@
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\DotNetTicketSysTypes.exe
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\DotNetTicketSysTypes.deps.json
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\DotNetTicketSysTypes.runtimeconfig.json
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\DotNetTicketSysTypes.runtimeconfig.dev.json
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\DotNetTicketSysTypes.dll
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\DotNetTicketSysTypes.pdb
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\NLog.dll
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+E:\code stuff\DotNetTicketSysTypes\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.csprojAssemblyReference.cache
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.AssemblyInfoInputs.cache
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.AssemblyInfo.cs
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.csproj.CoreCompileInputs.cache
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.csproj.CopyComplete
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.dll
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.pdb
+E:\code stuff\DotNetTicketSysTypes\obj\Debug\netcoreapp3.1\DotNetTicketSysTypes.genruntimeconfig.cache
