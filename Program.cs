@@ -14,6 +14,7 @@ namespace DotNetTicketSysTypes
             Ticket ticket = new Ticket();
             var bug = new Ticket.Bug();
             var enhancement = new Ticket.Enhancement();
+            var task = new Ticket.Task();
 
             string choice;
             do
@@ -44,7 +45,7 @@ namespace DotNetTicketSysTypes
                         }
                         else if (typeChoice == "3")
                         {
-
+                            task.ReadTicket();
                         }
                     }while (typeChoice == "1" || typeChoice == "2" || typeChoice == "3");
                 }
@@ -69,7 +70,7 @@ namespace DotNetTicketSysTypes
                         }
                         else if (typeChoice == "3")
                         {
-
+                            task.Questions();
                         }
                     }while (typeChoice == "1" || typeChoice == "2" || typeChoice == "3");
                 }
