@@ -36,3 +36,13 @@
 2021-10-15 20:02:47.3520|INFO|DotNetTicketSysTypes.Ticket+Bug|Program started
 2021-10-15 20:02:50.6221|INFO|DotNetTicketSysTypes.Program|User choice: 
 2021-10-15 20:02:50.6221|INFO|DotNetTicketSysTypes.Program|Program ended
+2021-10-15 20:29:18.9862|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 20:29:21.9642|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 20:29:27.7711|INFO|DotNetTicketSysTypes.Ticket+Enhancement|Program started
+2021-10-15 20:30:06.9529|INFO|DotNetTicketSysTypes.Ticket+Bug|Program started
+2021-10-15 20:31:56.1337|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 20:31:59.7619|INFO|DotNetTicketSysTypes.Program|User choice: 1
+2021-10-15 20:32:01.1961|INFO|DotNetTicketSysTypes.Ticket+Bug|Program started
+2021-10-15 20:32:09.4948|INFO|DotNetTicketSysTypes.Ticket+Enhancement|Program started
+2021-10-15 20:32:18.5226|INFO|DotNetTicketSysTypes.Program|User choice: 
+2021-10-15 20:32:18.5226|INFO|DotNetTicketSysTypes.Program|Program ended

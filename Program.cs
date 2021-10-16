@@ -13,11 +13,12 @@ namespace DotNetTicketSysTypes
             logger.Info("Program started"); //logs it started
             Ticket ticket = new Ticket();
             var bug = new Ticket.Bug();
+            var enhancement = new Ticket.Enhancement();
 
             string choice;
             do
             {
-                Console.WriteLine("1) List all tickets."); //asks the user what they'd like to do
+                Console.WriteLine("1) List tickets."); //asks the user what they'd like to do
                 Console.WriteLine("2) Create new ticket.");
                 Console.WriteLine("Enter any other key to exit.");
                 choice = Console.ReadLine();
@@ -39,13 +40,13 @@ namespace DotNetTicketSysTypes
                         }
                         else if (typeChoice == "2")
                         {
-
+                            enhancement.ReadTicket();
                         }
                         else if (typeChoice == "3")
                         {
 
                         }
-                    }while (choice == "1" || choice == "2" || choice == "3");
+                    }while (typeChoice == "1" || typeChoice == "2" || typeChoice == "3");
                 }
                 else if (choice == "2")
                 {
@@ -64,13 +65,13 @@ namespace DotNetTicketSysTypes
                         }
                         else if (typeChoice == "2")
                         {
-
+                            enhancement.Questions();
                         }
                         else if (typeChoice == "3")
                         {
 
                         }
-                    }while (choice == "1" || choice == "2" || choice == "3");
+                    }while (typeChoice == "1" || typeChoice == "2" || typeChoice == "3");
                 }
 
             } while (choice == "1" || choice == "2"); // keeps looping as long as 1 or 2 is entered
