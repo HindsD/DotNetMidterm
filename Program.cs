@@ -11,10 +11,9 @@ namespace DotNetTicketSysTypes
             string path = Directory.GetCurrentDirectory() + "\\nlog.config";
             var logger = NLogBuilder.ConfigureNLog(path).GetCurrentClassLogger(); // addslogger
             logger.Info("Program started"); //logs it started
-
-            string bugFile = "Tickets.csv"; //imports the csv where we will collect the tickets
             Ticket ticket = new Ticket();
-            var bug = new Ticket.Bug(); 
+            var bug = new Ticket.Bug();
+
             string choice;
             do
             {
@@ -24,31 +23,56 @@ namespace DotNetTicketSysTypes
                 choice = Console.ReadLine();
                 logger.Info("User choice: " + choice); //leeps track of the user's choice
 
-                if (choice == "1")
-                {
-                    bug.ReadTicket();
-                    // if (File.Exists(bugFile))
-                    // {
-                    //     StreamReader sr = new StreamReader(bugFile);
-                        
-                    //     while (!sr.EndOfStream)
-                    //     {
-                    //         string line = sr.ReadLine();
-                    //         bug.arr = line.Split('|');
-                    //         Console.WriteLine(bug.Display()); //reads the csv and displays each ticket
-                            
-                    //     }
-                    //     sr.Close();
-                    // }
-                    // else
-                    // {
-                    //     logger.Error("File does not exist: Tickets.csv"); // logs if it cant reach the csv
-                    // }
+                if (choice == "1"){
+                    string typeChoice;
+                    do
+                    {
+                        Console.WriteLine("Which type of ticket would you like to read?");
+                        Console.WriteLine("1) Bug/Defect Tickets");
+                        Console.WriteLine("2) Enhancement Tickets");
+                        Console.WriteLine("3) Task Tickets");
+                        Console.WriteLine("Enter any other key to exit.");
+                        typeChoice = Console.ReadLine();
+                        if (typeChoice == "1")
+                        {
+                            bug.ReadTicket();
+                        }
+                        else if (typeChoice == "2")
+                        {
+
+                        }
+                        else if (typeChoice == "3")
+                        {
+
+                        }
+                    }while (choice == "1" || choice == "2" || choice == "3");
                 }
                 else if (choice == "2")
                 {
-                    bug.Questions();
+                    string typeChoice;
+                    do
+                    {
+                        Console.WriteLine("What type of ticket would you like to make?");
+                        Console.WriteLine("1) Bug/Defect Tickets");
+                        Console.WriteLine("2) Enhancement Tickets");
+                        Console.WriteLine("3) Task Tickets");
+                        Console.WriteLine("Enter any other key to exit.");
+                        typeChoice = Console.ReadLine();
+                        if (typeChoice == "1")
+                        {
+                            bug.Questions();
+                        }
+                        else if (typeChoice == "2")
+                        {
+
+                        }
+                        else if (typeChoice == "3")
+                        {
+
+                        }
+                    }while (choice == "1" || choice == "2" || choice == "3");
                 }
+
             } while (choice == "1" || choice == "2"); // keeps looping as long as 1 or 2 is entered
             logger.Info("Program ended"); // logs that it ended
         }
