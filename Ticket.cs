@@ -21,14 +21,32 @@ namespace DotNetTicketSysTypes
             watching = "";     
             }
 
-        public string WriteTicket(){
+        public virtual string WriteTicket(){
             return (ticketId+"|"+summary+"|"+status+"|"+priority+"|"+submitter+"|"+assigned+"|"+watching);
         }    
 
-        public string Display(){
+        public virtual string Display(){
             
                 return ("TicketID: "+arr[0]+"\nSummary: "+arr[1]+"\nStatus: "+arr[2]+"\nPriority: "+arr[3]+"\nSubmitter: "+arr[4]+"\nAssigned: "+arr[5]+"\nWatching: "+arr[6]+"\n");
             
         }
+
+        public class Bug : Ticket
+        {
+            public string severity { get; set; }
+
+            public override string WriteTicket()
+        {
+            return (ticketId+"|"+summary+"|"+status+"|"+priority+"|"+submitter+"|"+assigned+"|"+watching+"|"+severity);
+        }
+        
+        public override string Display()
+        {
+            return ("TicketID: "+arr[0]+"\nSummary: "+arr[1]+"\nStatus: "+arr[2]+"\nPriority: "+arr[3]+"\nSubmitter: "+arr[4]+"\nAssigned: "+arr[5]+"\nWatching: "+arr[6]+"\nSeverity: "+arr[7]+"\n");
+        }
+        }
+
+
+
     }
 }

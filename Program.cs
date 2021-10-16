@@ -13,7 +13,8 @@ namespace DotNetTicketSysTypes
             logger.Info("Program started"); //logs it started
 
             string file = "Tickets.csv"; //imports the csv where we will collect the tickets
-            Ticket ticket = new Ticket(); 
+            Ticket ticket = new Ticket();
+            var bug = new Ticket.Bug(); 
             string choice;
             do
             {
@@ -32,8 +33,8 @@ namespace DotNetTicketSysTypes
                         while (!sr.EndOfStream)
                         {
                             string line = sr.ReadLine();
-                            ticket.arr = line.Split('|');
-                            Console.WriteLine(ticket.Display()); //reads the csv and displays each ticket
+                            bug.arr = line.Split('|');
+                            Console.WriteLine(bug.Display()); //reads the csv and displays each ticket
                             
                         }
                         sr.Close();
@@ -48,24 +49,27 @@ namespace DotNetTicketSysTypes
                     StreamWriter sw = new StreamWriter(file); //writes a new ticket
                     for (int i = 1; i < 10; i++)
                     {
-                        ticket.ticketId = i;
+                        bug.ticketId = i;
                         Console.WriteLine("Enter a Ticket (Y/N)?");
                         string resp = Console.ReadLine().ToUpper();
                         if (resp != "Y") { break; }
                         Console.WriteLine("Enter the summary of the ticket.");
-                        ticket.summary = Console.ReadLine();
+                        bug.summary = Console.ReadLine();
                         Console.WriteLine("Enter the current status.");
-                        ticket.status = Console.ReadLine();
+                        bug.status = Console.ReadLine();
                         Console.WriteLine("Enter the priority.");
-                        ticket.priority = Console.ReadLine();
+                        bug.priority = Console.ReadLine();
                         Console.WriteLine("Who submitted the ticket?");
-                        ticket.submitter = Console.ReadLine();
+                        bug.submitter = Console.ReadLine();
                         Console.WriteLine("Who is assigned the ticket?");
-                        ticket.assigned = Console.ReadLine();
+                        bug.assigned = Console.ReadLine();
                         Console.WriteLine("Who is watching?");
-                        ticket.watching = Console.ReadLine();
+                        bug.watching = Console.ReadLine();
+                        Console.WriteLine("What is the severity of the bug?");
+                        bug.severity = Console.ReadLine();
+                        
                             try{
-                                sw.WriteLine(ticket.WriteTicket()); //a  try catch that will throw an exception if it can't write a ticket
+                                sw.WriteLine(bug.WriteTicket()); //a  try catch that will throw an exception if it can't write a ticket
                             }catch (Exception ex)
                         {
                             logger.Error("Unable to add ticket!"); // logs an exception

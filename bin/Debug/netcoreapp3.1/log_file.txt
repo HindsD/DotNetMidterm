@@ -2,3 +2,24 @@
 2021-10-15 15:37:52.9689|INFO|DotNetTicketSysTypes.Program|User choice: 2
 2021-10-15 15:37:58.7073|INFO|DotNetTicketSysTypes.Program|User choice: 
 2021-10-15 15:37:58.7092|INFO|DotNetTicketSysTypes.Program|Program ended
+2021-10-15 19:37:53.9690|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 19:37:58.3485|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 19:38:25.3371|INFO|DotNetTicketSysTypes.Program|User choice: 1
+2021-10-15 19:38:40.4481|INFO|DotNetTicketSysTypes.Program|User choice: 
+2021-10-15 19:38:40.4481|INFO|DotNetTicketSysTypes.Program|Program ended
+2021-10-15 19:39:26.8306|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 19:39:28.6261|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 19:39:47.4690|INFO|DotNetTicketSysTypes.Program|User choice: 1
+2021-10-15 19:41:03.9292|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 19:41:18.3542|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 19:41:50.9041|INFO|DotNetTicketSysTypes.Program|User choice: 1
+2021-10-15 19:42:42.4689|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 19:42:45.0300|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 19:43:06.3578|INFO|DotNetTicketSysTypes.Program|User choice: 1
+2021-10-15 19:43:20.7694|INFO|DotNetTicketSysTypes.Program|User choice: 
+2021-10-15 19:43:20.7723|INFO|DotNetTicketSysTypes.Program|Program ended
+2021-10-15 19:44:44.1118|INFO|DotNetTicketSysTypes.Program|Program started
+2021-10-15 19:44:45.8361|INFO|DotNetTicketSysTypes.Program|User choice: 2
+2021-10-15 19:44:58.7188|INFO|DotNetTicketSysTypes.Program|User choice: 1
+2021-10-15 19:45:03.8256|INFO|DotNetTicketSysTypes.Program|User choice: 
+2021-10-15 19:45:03.8256|INFO|DotNetTicketSysTypes.Program|Program ended
